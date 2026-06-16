@@ -1,20 +1,83 @@
 body {
-  font-family: Arial;
   margin: 0;
-  padding: 0;
-  background: #f4f4f4;
-}
-
-header {
-  background: #111;
+  font-family: Arial, sans-serif;
+  background: #0f0f0f;
   color: white;
-  padding: 40px;
-  text-align: center;
+  scroll-behavior: smooth;
 }
 
-section {
-  padding: 20px;
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: #111;
+  position: sticky;
+  top: 0;
+}
+
+.navbar a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #111, #222);
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
   background: white;
-  margin: 10px;
+  color: black;
+  border-radius: 8px;
+}
+
+/* SECTIONS */
+.section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.dark {
+  background: #181818;
+}
+
+/* SKILLS GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+.grid div {
+  background: #222;
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+/* CARDS */
+.card {
+  background: #222;
+  padding: 20px;
+  margin: 10px 0;
   border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
 }
