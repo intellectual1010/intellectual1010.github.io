@@ -373,6 +373,11 @@
     box-shadow: var(--box-shadow);
     padding: 3rem;
   }
+
+  .skills__content__full {
+    width: 100%;
+    margin-top: 2rem;
+  }
   
   .skills__item {
     margin-bottom: 1rem;
