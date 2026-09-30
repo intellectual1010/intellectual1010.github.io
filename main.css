@@ -375,6 +375,9 @@
   }
 
   .skills__content__full {
+    background-color: var(--color-bg-secondary);
+    box-shadow: var(--box-shadow);
+    padding: 3rem;
     width: 100%;
     margin-top: 2rem;
   }
